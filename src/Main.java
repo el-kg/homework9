@@ -37,7 +37,7 @@ public class Main {
         // Задание 3
         System.out.println("Задание 3");
         double costRate = costAmount / arr.length;// Cумму затрат мы считали в задании 1 (No flood edition)
-        System.out.println("Средняя сумма трат за месяц составила" + costRate + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила " + costRate + " рублей");
         // Задание 4
         System.out.println("Задание 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
