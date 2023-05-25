@@ -23,8 +23,8 @@ public class Main {
         System.out.println("Сумма трат за месяц составила " + costAmount + " рублей");
         // Задание 2
         System.out.println("Задание 2");
-        int maxCost = 0;
-        int minCost = 200_000;
+        int maxCost = arr[0];
+        int minCost = arr[0];
         for (int element : arr) {
             if (element > maxCost) {
                 maxCost = element;
