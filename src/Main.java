@@ -36,8 +36,9 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + minCost + " рублей. Максимальная сумма трат за день составила " + maxCost + " рублей");
         // Задание 3
         System.out.println("Задание 3");
-        double costRate = costAmount / arr.length;// Cумму затрат мы считали в задании 1 (No flood edition)
-        System.out.println("Средняя сумма трат за месяц составила " + costRate + " рублей");
+        double costRate = (double) costAmount / arr.length;// Cумму затрат мы считали в задании 1 (No flood edition)
+        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", costRate);
+        System.out.println();
         // Задание 4
         System.out.println("Задание 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
